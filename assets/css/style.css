@@ -21,11 +21,20 @@ ul {
 .button_1 {
     height: 38px;
     background: #e8491d;
-    border: 0;
-    padding-left: 0;
-    padding-right: 0;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #fff;
 }
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Header */
 header {
     background: #35424a;
@@ -74,7 +83,7 @@ header a:hover {
 /* Showcase */
 #showcase {
     min-height: 400px;
-    background: url('../images/logo_brush.jpeg') no-repeat 0 -400px;
+    background: url('../images/hero-image.jpg') no-repeat 0 -400px;
     text-align: center;
     color: #fff;
 }
@@ -129,6 +138,35 @@ header a:hover {
     width: 90px;
 }
 
+/* Sidebar */
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+/* Main-col */
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+/* Services */
+
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: #cccccc; solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
 footer {
     padding: 20px;
     margin-top: 20px;
@@ -136,3 +174,4 @@ footer {
     background-color: #e8491d;
     text-align: center;
 }
+
